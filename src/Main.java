@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         int balance = 100; // стартовый баланс
-        int amount = 900; // сумма пополнения
+        int amount = 1200; // сумма пополнения
         int bonus = amount > 1000 ? amount / 100 : 0;  // начисляемый бонус
         int totalBalance = balance + amount + bonus;   // итоговый баланс
 
